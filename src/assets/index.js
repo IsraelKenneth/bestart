@@ -1,0 +1,22 @@
+import Salebannerr from './images/Salebanner.png'
+import Logo from './Logo.png'
+import Pattern from './images/Pattern-fill.png'
+import Bg from './images/Bg.png'
+import adidas from './images/adidas-7.png'
+import asos from './images/asos-1.png'
+import bershka from './images/bershka-1.png'
+import levi from './images/levi-s.png'
+import nike from './images/nike-4.png'
+import pullbear from './images/pull-bear-2.png'
+import zara from './images/zaraa.png'
+import Top1 from './images/top-1.png'
+import Top2 from './images/top-2.png'
+import Top3 from './images/top-3.png'
+import Top4 from './images/top-4.jpg'
+import Top5 from './images/top-5.jpg'
+import Top6 from './images/top-6.png'
+import TopColl from './images/topColl.png'
+import TopColl1 from './images/topColl1.png'
+
+export {Salebannerr, Logo, Pattern, Bg, adidas, asos, bershka, levi, nike, pullbear, zara,
+Top1, Top2, Top3, Top4, Top5, Top6,TopColl, TopColl1}
