@@ -1,5 +1,5 @@
 import { Navbar, SaleBanner, Brands } from "./components"
-import {TopCollection, Ideas, Hero, TopProducts, } from "./sections"
+import {TopCollection, Ideas, Hero, TopProducts, Categories, } from "./sections"
 
 const App = () =>{
   return(
@@ -9,16 +9,20 @@ const App = () =>{
 
 <Hero />
 
-<div className="padding-x w-full padding-y">
+<div className="padding-x w-full padding-y ">
   <Brands />
 </div>
 
-<section className="padding-x w-full">
+<section className="padding-x w-full ">
   <TopProducts />
 </section>
 
-<section className="padding-x padding-b">
+<section className="padding-x ">
 <TopCollection  />
+</section>
+
+<section className="padding-x padding-b">
+<Categories />
 </section>
 
 <Ideas />
