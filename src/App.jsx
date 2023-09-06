@@ -1,5 +1,5 @@
-import { Navbar, SaleBanner, Brands } from "./components"
-import {TopCollection, Ideas, Hero, TopProducts, Categories, } from "./sections"
+import { Navbar, SaleBanner, Brands, Banner, Footer } from "./components"
+import {TopCollection, Hero, TopProducts, Categories, SportCategory, } from "./sections"
 
 const App = () =>{
   return(
@@ -15,6 +15,7 @@ const App = () =>{
 
 <section className="padding-x w-full ">
   <TopProducts />
+  <div className="sm:block max-sm:hidden border-b-2 w-[80%] flex my-[5rem] mx-auto" />
 </section>
 
 <section className="padding-x ">
@@ -25,9 +26,17 @@ const App = () =>{
 <Categories />
 </section>
 
-<Ideas />
+<Banner />
 
-<h1 className="cursor-pointer underline">Hello</h1>
+<section className="padding-x w-full padding-t ">
+  <TopProducts />
+</section>
+
+<section className="padding-x padding-t ">
+  <SportCategory />
+</section>
+
+<Footer />
     </main>
   )
 }

@@ -14,11 +14,11 @@ const TopCollection = () => {
     <div className="flex flex-row justify-between w-full mt-5 border-b-2 pb-3">
     <p className="font-inter text-gray-600 text-base"> Cotton shirt &nbsp; Jacket &nbsp; Jeans &nbsp; Shoes  </p>
     <p className="font-inter font-bold text-black-600 text-base">Pull & Bear <span className="font-inter text-xs rounded-full mx-3 p-2 bg-[#eae9ea]"> <em>-230$</em> </span></p> </div>
-    <div className="flex flex-row justify-between w-full mt-4">
+    <div className="flex flex-row justify-between w-full mt-4 mb-10">
     <p className="font-inter text-gray-600 text-base"> Dress &nbsp; Shoes &nbsp; Glasses </p> 
     <p className="font-inter font-bold text-black-600 text-base">Zara <span className="font-inter text-xs rounded-full mx-3 p-2 bg-[#eae9ea]"><em>-100$</em> </span></p>
     </div>
-
+    
     <Buttonnew label= 'VIEW ALL COLLECTIONS' iconURL={arrowRight} />
   </div>
 

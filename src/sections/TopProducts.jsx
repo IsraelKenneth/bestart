@@ -30,7 +30,6 @@ const TopProducts = () => {
         </svg>
     </button> */}
   </div>
-  <div className="sm:block max-sm:hidden border-b-2 w-[80%] flex my-[5rem] mx-auto" />
 </section>
 
 
